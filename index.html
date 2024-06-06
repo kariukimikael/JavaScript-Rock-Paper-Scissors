@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="scores">
+                <span><h1 id="user-score">0</h1> User</span>
+                <span><h1 id="draws">0</h1> Draws</span>
+                <span><h1 id="computer-score">0</h1> Computer</span>
+            </div>
+            <div class="choice-displays">
+                <h2 class="displays">Computer's Choice: <span id="comp-display"></span></h2>
+                <h2 class="displays">User's Choice: <span id="user-display"></span></h2>
+            </div>
+            <div class="results" id="resultsDisplay"></div>
+            <div class="btn-wraps">
+                <button type="button" class="choice-btns" id="scissors-btn" value="Scissors">Scissors</button>
+                <button type="button" class="choice-btns" id="paper-btn" value="Paper">Paper</button>
+                <button type="button" class="choice-btns" id="rock-btn" value="Rock">Rock</button>
+            </div>
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
